@@ -1,9 +1,8 @@
 import sys
-import matplotlib
-matplotlib.use('Agg')
-
-import pandas as pd
+import matplotlib as mpl
 import matplotlib.pyplot as plt
+import pandas as pd
+
 
 df1= pd.read_csv('data.csv')
 df2= pd.read_json('data.js')
